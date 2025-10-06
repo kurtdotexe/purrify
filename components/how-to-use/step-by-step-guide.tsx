@@ -33,10 +33,10 @@ const steps = [
 
 export function StepByStepGuide() {
   return (
-    <section className="py-20 bg-gradient-to-br from-teal-50 to-green-50">
+    <section className="py-20 bg-gradient-to-br from-[#F7F9FA] to-[#E8F1FA]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-teal-600 to-green-500 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-[#6B9DCB] to-[#A7C7E7] bg-clip-text text-transparent">
             How to Use Purrify
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -50,7 +50,7 @@ export function StepByStepGuide() {
             <div key={index} className="group text-center card-hover">
               <div className="bg-white rounded-2xl p-8 shadow-xl h-full">
                 {/* Step number */}
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-teal-500 to-green-500 rounded-2xl mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#6B9DCB] to-[#A7C7E7] rounded-2xl mb-6 group-hover:scale-110 transition-transform duration-300">
                   <step.icon className="h-8 w-8 text-white" />
                 </div>
                 
@@ -58,13 +58,13 @@ export function StepByStepGuide() {
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
                   Step {index + 1}: {step.title}
                 </h3>
-                <p className="text-teal-600 font-medium mb-4">{step.description}</p>
+                <p className="text-[#6B9DCB] font-medium mb-4">{step.description}</p>
                 <p className="text-gray-600 text-sm mb-4">{step.details}</p>
                 
                 {/* Pro tip */}
-                <div className="bg-gradient-to-r from-green-50 to-teal-50 rounded-xl p-3">
+                <div className="bg-gradient-to-r from-[#E8F1FA] to-[#F7F9FA] rounded-xl p-3">
                   <p className="text-xs text-gray-600">
-                    <span className="font-semibold text-teal-600">💡 Pro Tip:</span> {step.tip}
+                    <span className="font-semibold text-[#6B9DCB]">💡 Pro Tip:</span> {step.tip}
                   </p>
                 </div>
               </div>
@@ -77,7 +77,7 @@ export function StepByStepGuide() {
           {/* Video section */}
           <div>
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-              <div className="aspect-video bg-gradient-to-br from-teal-400 to-green-400 flex items-center justify-center">
+              <div className="aspect-video bg-gradient-to-br from-[#A7C7E7] to-[#9EBFD9] flex items-center justify-center">
                 <div className="text-center text-white">
                   <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                     <div className="w-0 h-0 border-l-8 border-l-white border-y-6 border-y-transparent ml-1"></div>
@@ -98,22 +98,22 @@ export function StepByStepGuide() {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Pro Tips for Best Results</h3>
             <div className="space-y-6">
               <div className="bg-white rounded-2xl p-6 shadow-lg">
-                <h4 className="font-semibold text-teal-600 mb-2">🚀 For Fresh Stains</h4>
+                <h4 className="font-semibold text-[#6B9DCB] mb-2">🚀 For Fresh Stains</h4>
                 <p className="text-gray-600 text-sm">Act quickly! Fresh stains come out much easier than set-in ones. Keep your Purrify pen handy at all times.</p>
               </div>
               
               <div className="bg-white rounded-2xl p-6 shadow-lg">
-                <h4 className="font-semibold text-green-600 mb-2">🧪 For Tough Stains</h4>
+                <h4 className="font-semibold text-[#588DBA] mb-2">🧪 For Tough Stains</h4>
                 <p className="text-gray-600 text-sm">For stubborn stains, apply Purrify, wait the full 3 minutes, then gently work in with your finger before dabbing.</p>
               </div>
               
               <div className="bg-white rounded-2xl p-6 shadow-lg">
-                <h4 className="font-semibold text-purple-600 mb-2">👕 For Different Fabrics</h4>
+                <h4 className="font-semibold text-[#9EBFD9] mb-2">👕 For Different Fabrics</h4>
                 <p className="text-gray-600 text-sm">Always test on a hidden area first. Purrify works on most fabrics, but it's better to be safe!</p>
               </div>
               
               <div className="bg-white rounded-2xl p-6 shadow-lg">
-                <h4 className="font-semibold text-orange-600 mb-2">♻️ Storage & Care</h4>
+                <h4 className="font-semibold text-[#A7C7E7] mb-2">♻️ Storage & Care</h4>
                 <p className="text-gray-600 text-sm">Store at room temperature. Replace the cap tightly after use to prevent evaporation. Each pen lasts 6+ months.</p>
               </div>
             </div>

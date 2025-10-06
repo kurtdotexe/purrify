@@ -23,6 +23,14 @@ const config: Config = {
         sm: 'calc(var(--radius) - 4px)',
       },
       colors: {
+        'purrify': {
+          primary: '#A7C7E7',
+          secondary: '#6B9DCB',
+          accent: '#9EBFD9',
+          hover: '#588DBA',
+          text: '#333333',
+          background: '#F7F9FA',
+        },
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {

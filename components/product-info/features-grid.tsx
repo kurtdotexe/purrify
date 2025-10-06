@@ -44,7 +44,7 @@ export function FeaturesGrid() {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-teal-600 to-green-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-[#6B9DCB] to-[#A7C7E7] bg-clip-text text-transparent">
             Key Features
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -57,13 +57,13 @@ export function FeaturesGrid() {
             <div key={index} className="group card-hover">
               <div className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 h-full shadow-lg border border-gray-100">
                 <div className="flex items-center mb-6">
-                  <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-teal-500 to-green-500 rounded-xl mr-4 group-hover:scale-110 transition-transform duration-300">
+                  <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-[#6B9DCB] to-[#A7C7E7] rounded-xl mr-4 group-hover:scale-110 transition-transform duration-300">
                     <feature.icon className="h-6 w-6 text-white" />
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900">{feature.title}</h3>
                 </div>
                 
-                <p className="text-teal-600 font-medium mb-4">{feature.description}</p>
+                <p className="text-[#6B9DCB] font-medium mb-4">{feature.description}</p>
                 <p className="text-gray-600 text-sm leading-relaxed">{feature.details}</p>
               </div>
             </div>

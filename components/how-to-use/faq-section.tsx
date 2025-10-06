@@ -49,7 +49,7 @@ export function FAQSection() {
     <section className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-teal-600 to-green-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-[#6B9DCB] to-[#A7C7E7] bg-clip-text text-transparent">
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-600">
@@ -68,7 +68,7 @@ export function FAQSection() {
                   {faq.question}
                 </h3>
                 {openIndex === index ? (
-                  <ChevronUp className="h-5 w-5 text-teal-600 flex-shrink-0" />
+                  <ChevronUp className="h-5 w-5 text-[#6B9DCB] flex-shrink-0" />
                 ) : (
                   <ChevronDown className="h-5 w-5 text-gray-400 flex-shrink-0" />
                 )}
@@ -89,7 +89,7 @@ export function FAQSection() {
 
         {/* Contact section */}
         <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-green-50 to-teal-50 rounded-2xl p-8">
+          <div className="bg-gradient-to-r from-[#E8F1FA] to-[#F7F9FA] rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Still Have Questions?</h3>
             <p className="text-gray-600 mb-6">
               Our friendly customer service team is here to help! We typically respond within 24 hours.

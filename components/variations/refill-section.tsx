@@ -2,10 +2,10 @@ import { Recycle, Leaf, DollarSign, Package } from 'lucide-react';
 
 export function RefillSection() {
   return (
-    <section className="py-20 bg-gradient-to-r from-green-50 to-teal-50">
+    <section className="py-20 bg-gradient-to-r from-[#F7F9FA] to-[#E8F1FA]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-teal-600 to-green-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-[#6B9DCB] to-[#A7C7E7] bg-clip-text text-transparent">
             Sustainable Refill System
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -19,7 +19,7 @@ export function RefillSection() {
             <h3 className="text-3xl font-bold text-gray-900 mb-8">Why Choose Refills?</h3>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
-                <div className="flex items-center justify-center w-12 h-12 bg-green-500 rounded-xl">
+                <div className="flex items-center justify-center w-12 h-12 bg-[#A7C7E7] rounded-xl">
                   <Recycle className="h-6 w-6 text-white" />
                 </div>
                 <div>
@@ -29,7 +29,7 @@ export function RefillSection() {
               </div>
               
               <div className="flex items-start space-x-4">
-                <div className="flex items-center justify-center w-12 h-12 bg-teal-500 rounded-xl">
+                <div className="flex items-center justify-center w-12 h-12 bg-[#6B9DCB] rounded-xl">
                   <DollarSign className="h-6 w-6 text-white" />
                 </div>
                 <div>
@@ -39,7 +39,7 @@ export function RefillSection() {
               </div>
               
               <div className="flex items-start space-x-4">
-                <div className="flex items-center justify-center w-12 h-12 bg-purple-500 rounded-xl">
+                <div className="flex items-center justify-center w-12 h-12 bg-[#9EBFD9] rounded-xl">
                   <Leaf className="h-6 w-6 text-white" />
                 </div>
                 <div>
@@ -49,7 +49,7 @@ export function RefillSection() {
               </div>
               
               <div className="flex items-start space-x-4">
-                <div className="flex items-center justify-center w-12 h-12 bg-orange-500 rounded-xl">
+                <div className="flex items-center justify-center w-12 h-12 bg-[#588DBA] rounded-xl">
                   <Package className="h-6 w-6 text-white" />
                 </div>
                 <div>
@@ -68,23 +68,23 @@ export function RefillSection() {
               <div className="space-y-4 mb-6">
                 <div className="flex justify-between items-center py-3 border-b">
                   <span className="font-medium">Single Refill</span>
-                  <span className="text-teal-600 font-bold">$6</span>
+                  <span className="text-[#6B9DCB] font-bold">$6</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b">
                   <span className="font-medium">3-Pack Bundle</span>
-                  <span className="text-teal-600 font-bold">$15 <span className="text-sm text-gray-500">($5 each)</span></span>
+                  <span className="text-[#6B9DCB] font-bold">$15 <span className="text-sm text-gray-500">($5 each)</span></span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b">
                   <span className="font-medium">6-Month Supply</span>
-                  <span className="text-teal-600 font-bold">$25 <span className="text-sm text-gray-500">($4.17 each)</span></span>
+                  <span className="text-[#6B9DCB] font-bold">$25 <span className="text-sm text-gray-500">($4.17 each)</span></span>
                 </div>
                 <div className="flex justify-between items-center py-3">
                   <span className="font-medium">Mix & Match Scents</span>
-                  <span className="text-green-600 font-bold">Available</span>
+                  <span className="text-[#588DBA] font-bold">Available</span>
                 </div>
               </div>
               
-              <div className="bg-gradient-to-r from-green-50 to-teal-50 rounded-xl p-4 text-center">
+              <div className="bg-gradient-to-r from-[#E8F1FA] to-[#F7F9FA] rounded-xl p-4 text-center">
                 <p className="text-sm text-gray-600 mb-2">💡 Pro Tip</p>
                 <p className="text-sm font-medium">Subscribe for monthly refills and save an additional 15%</p>
               </div>
@@ -97,7 +97,7 @@ export function RefillSection() {
           <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">How to Refill Your Purrify Pen</h3>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-green-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#6B9DCB] to-[#A7C7E7] rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">1</span>
               </div>
               <h4 className="font-semibold mb-2">Twist Off Cap</h4>
@@ -105,7 +105,7 @@ export function RefillSection() {
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-green-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#6B9DCB] to-[#A7C7E7] rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">2</span>
               </div>
               <h4 className="font-semibold mb-2">Pour Refill</h4>
@@ -113,7 +113,7 @@ export function RefillSection() {
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-green-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#6B9DCB] to-[#A7C7E7] rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">3</span>
               </div>
               <h4 className="font-semibold mb-2">Replace Cap</h4>
@@ -121,7 +121,7 @@ export function RefillSection() {
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-green-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#6B9DCB] to-[#A7C7E7] rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">4</span>
               </div>
               <h4 className="font-semibold mb-2">Ready to Go!</h4>

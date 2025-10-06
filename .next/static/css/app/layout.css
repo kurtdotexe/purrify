@@ -509,19 +509,19 @@ video {
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;
-    --primary: 173 100% 27%;
+    --primary: 208 61% 78%;
     --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
-    --muted: 0 0% 96.1%;
+    --secondary: 208 38% 61%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 210 20% 97%;
     --muted-foreground: 0 0% 45.1%;
-    --accent: 120 100% 80%;
+    --accent: 208 43% 72%;
     --accent-foreground: 0 0% 9%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 173 100% 27%;
+    --border: 210 15% 93%;
+    --input: 210 15% 93%;
+    --ring: 208 38% 61%;
     --radius: 1rem;
   }
   * {
@@ -568,7 +568,7 @@ video {
 .btn-primary {
   border-radius: 9999px;
   --tw-bg-opacity: 1;
-  background-color: rgb(13 148 136 / var(--tw-bg-opacity, 1));
+  background-color: rgb(107 157 203 / var(--tw-bg-opacity, 1));
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.75rem;
@@ -586,7 +586,7 @@ video {
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   --tw-bg-opacity: 1;
-  background-color: rgb(15 118 110 / var(--tw-bg-opacity, 1));
+  background-color: rgb(88 141 186 / var(--tw-bg-opacity, 1));
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -595,7 +595,7 @@ video {
   border-radius: 9999px;
   border-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgb(13 148 136 / var(--tw-border-opacity, 1));
+  border-color: rgb(107 157 203 / var(--tw-border-opacity, 1));
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
   padding-left: 1.5rem;
@@ -604,7 +604,7 @@ video {
   padding-bottom: 0.75rem;
   font-weight: 500;
   --tw-text-opacity: 1;
-  color: rgb(13 148 136 / var(--tw-text-opacity, 1));
+  color: rgb(107 157 203 / var(--tw-text-opacity, 1));
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
@@ -2283,11 +2283,12 @@ video {
 }
 
 :root {
-  --mint-green: #98FF98;
-  --teal: #008080;
-  --soft-pink: #FFE4E6;
-  --soft-yellow: #FFF7ED;
-  --soft-purple: #F3E8FF;
+  --purrify-primary: #A7C7E7;
+  --purrify-secondary: #6B9DCB;
+  --purrify-accent: #9EBFD9;
+  --purrify-hover: #588DBA;
+  --purrify-text: #333333;
+  --purrify-background: #F7F9FA;
 }
 
 @keyframes sparkle {
@@ -2301,8 +2302,8 @@ video {
 }
 
 @keyframes glow {
-  0%, 100% { box-shadow: 0 0 20px rgba(166, 227, 213, 0.5); }
-  50% { box-shadow: 0 0 30px rgba(166, 227, 213, 0.8), 0 0 40px rgba(43, 122, 120, 0.5); }
+  0%, 100% { box-shadow: 0 0 20px rgba(167, 199, 231, 0.5); }
+  50% { box-shadow: 0 0 30px rgba(167, 199, 231, 0.8), 0 0 40px rgba(107, 157, 203, 0.5); }
 }
 
 .float-animation {

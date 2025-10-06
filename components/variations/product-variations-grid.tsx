@@ -68,7 +68,7 @@ export function ProductVariationsGrid() {
     <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-teal-600 to-green-500 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-[#6B9DCB] to-[#A7C7E7] bg-clip-text text-transparent">
             Choose Your Purr-fect Scent
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
@@ -108,7 +108,7 @@ export function ProductVariationsGrid() {
                   {hoveredIndex === index && (
                     <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
                       <div className="bg-white/90 rounded-full p-2">
-                        <Heart className="h-6 w-6 text-teal-600" />
+                        <Heart className="h-6 w-6 text-[#6B9DCB]" />
                       </div>
                     </div>
                   )}

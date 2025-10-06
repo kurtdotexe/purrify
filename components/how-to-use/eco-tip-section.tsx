@@ -2,11 +2,11 @@ import { Recycle, Droplet, Heart } from 'lucide-react';
 
 export function EcoTipSection() {
   return (
-    <section className="py-20 bg-gradient-to-br from-green-50 to-teal-50">
+    <section className="py-20 bg-gradient-to-br from-[#F7F9FA] to-[#E8F1FA]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-            <div className="bg-gradient-to-br from-teal-500 to-green-500 p-12 flex items-center justify-center text-white">
+            <div className="bg-gradient-to-br from-[#6B9DCB] to-[#A7C7E7] p-12 flex items-center justify-center text-white">
               <div className="text-center">
                 <div className="flex justify-center space-x-4 mb-6">
                   <Recycle className="h-16 w-16 animate-pulse" />
@@ -23,8 +23,8 @@ export function EcoTipSection() {
 
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
-                    <Recycle className="h-5 w-5 text-green-600" />
+                  <div className="flex-shrink-0 w-10 h-10 bg-[#E8F1FA] rounded-full flex items-center justify-center">
+                    <Recycle className="h-5 w-5 text-[#6B9DCB]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Refill Instead of Replace</h4>
@@ -36,8 +36,8 @@ export function EcoTipSection() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-teal-100 rounded-full flex items-center justify-center">
-                    <Droplet className="h-5 w-5 text-teal-600" />
+                  <div className="flex-shrink-0 w-10 h-10 bg-[#E8F1FA] rounded-full flex items-center justify-center">
+                    <Droplet className="h-5 w-5 text-[#6B9DCB]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Use Every Last Drop</h4>
@@ -49,8 +49,8 @@ export function EcoTipSection() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
-                    <Heart className="h-5 w-5 text-green-600" />
+                  <div className="flex-shrink-0 w-10 h-10 bg-[#E8F1FA] rounded-full flex items-center justify-center">
+                    <Heart className="h-5 w-5 text-[#6B9DCB]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Keep Your Favorite Cap</h4>
@@ -61,9 +61,9 @@ export function EcoTipSection() {
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-r from-teal-50 to-green-50 rounded-xl p-4 mt-6">
+                <div className="bg-gradient-to-r from-[#E8F1FA] to-[#F7F9FA] rounded-xl p-4 mt-6">
                   <p className="text-sm text-gray-700">
-                    <span className="font-bold text-teal-600">Did you know?</span> By choosing refillable Purrify,
+                    <span className="font-bold text-[#6B9DCB]">Did you know?</span> By choosing refillable Purrify,
                     you're helping reduce plastic waste. If every student used refillable products, we could save
                     thousands of containers from landfills each year!
                   </p>

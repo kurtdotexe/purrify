@@ -7,10 +7,10 @@ import { CheckCircle, Heart, Home, Package } from 'lucide-react';
 
 export function ThankYouContent() {
   return (
-    <section className="py-20 bg-gradient-to-br from-teal-50 to-green-50 min-h-screen flex items-center">
+    <section className="py-20 bg-gradient-to-br from-[#F7F9FA] to-[#E8F1FA] min-h-screen flex items-center">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="mb-8 relative">
-          <div className="inline-flex items-center justify-center w-32 h-32 bg-gradient-to-br from-teal-500 to-green-500 rounded-full shadow-2xl mb-6">
+          <div className="inline-flex items-center justify-center w-32 h-32 bg-gradient-to-br from-[#6B9DCB] to-[#A7C7E7] rounded-full shadow-2xl mb-6">
             <CheckCircle className="h-16 w-16 text-white" />
           </div>
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4">
@@ -18,7 +18,7 @@ export function ThankYouContent() {
           </div>
         </div>
 
-        <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-teal-600 to-green-500 bg-clip-text text-transparent">
+        <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-[#6B9DCB] to-[#A7C7E7] bg-clip-text text-transparent">
           Thank You!
         </h1>
 
@@ -30,8 +30,8 @@ export function ThankYouContent() {
           <CardContent className="pt-6">
             <div className="space-y-4 text-left">
               <div className="flex items-start space-x-3">
-                <div className="flex-shrink-0 w-8 h-8 bg-teal-100 rounded-full flex items-center justify-center mt-1">
-                  <span className="text-teal-600 font-bold">1</span>
+                <div className="flex-shrink-0 w-8 h-8 bg-[#E8F1FA] rounded-full flex items-center justify-center mt-1">
+                  <span className="text-[#6B9DCB] font-bold">1</span>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Order Confirmation</h3>
@@ -42,8 +42,8 @@ export function ThankYouContent() {
               </div>
 
               <div className="flex items-start space-x-3">
-                <div className="flex-shrink-0 w-8 h-8 bg-teal-100 rounded-full flex items-center justify-center mt-1">
-                  <span className="text-teal-600 font-bold">2</span>
+                <div className="flex-shrink-0 w-8 h-8 bg-[#E8F1FA] rounded-full flex items-center justify-center mt-1">
+                  <span className="text-[#6B9DCB] font-bold">2</span>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Payment Processing</h3>
@@ -54,8 +54,8 @@ export function ThankYouContent() {
               </div>
 
               <div className="flex items-start space-x-3">
-                <div className="flex-shrink-0 w-8 h-8 bg-teal-100 rounded-full flex items-center justify-center mt-1">
-                  <span className="text-teal-600 font-bold">3</span>
+                <div className="flex-shrink-0 w-8 h-8 bg-[#E8F1FA] rounded-full flex items-center justify-center mt-1">
+                  <span className="text-[#6B9DCB] font-bold">3</span>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Delivery</h3>
@@ -68,9 +68,9 @@ export function ThankYouContent() {
           </CardContent>
         </Card>
 
-        <div className="bg-gradient-to-r from-green-50 to-teal-50 rounded-2xl p-6 mb-8">
+        <div className="bg-gradient-to-r from-[#E8F1FA] to-[#F7F9FA] rounded-2xl p-6 mb-8">
           <div className="flex items-center justify-center space-x-2 mb-3">
-            <Heart className="h-6 w-6 text-teal-600 fill-current" />
+            <Heart className="h-6 w-6 text-[#6B9DCB] fill-current" />
             <h3 className="text-lg font-semibold text-gray-900">Thank you for supporting student entrepreneurs!</h3>
           </div>
           <p className="text-sm text-gray-600">
@@ -95,7 +95,7 @@ export function ThankYouContent() {
 
         <div className="mt-12 text-sm text-gray-500">
           <p className="mb-2">Questions about your order?</p>
-          <a href="mailto:pawlish.co.purrify@gmail.com" className="text-teal-600 hover:text-teal-700 font-medium">
+          <a href="mailto:pawlish.co.purrify@gmail.com" className="text-[#6B9DCB] hover:text-[#588DBA] font-medium">
             Contact us at pawlish.co.purrify@gmail.com
           </a>
         </div>

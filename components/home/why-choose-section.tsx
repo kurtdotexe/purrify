@@ -28,7 +28,7 @@ export function WhyChooseSection() {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-teal-600 to-green-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-[#6B9DCB] to-[#A7C7E7] bg-clip-text text-transparent">
             Why Choose Purrify?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -39,8 +39,8 @@ export function WhyChooseSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="group text-center card-hover">
-              <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-8 h-full">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-teal-500 to-green-500 rounded-2xl mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="bg-gradient-to-br from-[#F7F9FA] to-[#E8F1FA] rounded-2xl p-8 h-full">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#6B9DCB] to-[#A7C7E7] rounded-2xl mb-6 group-hover:scale-110 transition-transform duration-300">
                   <feature.icon className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">{feature.title}</h3>

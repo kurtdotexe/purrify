@@ -66,10 +66,10 @@ export function OrderForm() {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-teal-50 to-green-50 min-h-screen">
+    <section className="py-20 bg-gradient-to-br from-[#F7F9FA] to-[#E8F1FA] min-h-screen">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-teal-600 to-green-500 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-[#6B9DCB] to-[#A7C7E7] bg-clip-text text-transparent">
             Order Purrify
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -89,7 +89,7 @@ export function OrderForm() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <Label htmlFor="name" className="flex items-center space-x-2">
-                    <User className="h-4 w-4 text-teal-600" />
+                    <User className="h-4 w-4 text-[#6B9DCB]" />
                     <span>Full Name *</span>
                   </Label>
                   <Input
@@ -105,7 +105,7 @@ export function OrderForm() {
 
                 <div className="space-y-2">
                   <Label htmlFor="email" className="flex items-center space-x-2">
-                    <Mail className="h-4 w-4 text-teal-600" />
+                    <Mail className="h-4 w-4 text-[#6B9DCB]" />
                     <span>Email Address *</span>
                   </Label>
                   <Input
@@ -122,7 +122,7 @@ export function OrderForm() {
 
                 <div className="space-y-2">
                   <Label htmlFor="phone" className="flex items-center space-x-2">
-                    <Phone className="h-4 w-4 text-teal-600" />
+                    <Phone className="h-4 w-4 text-[#6B9DCB]" />
                     <span>Phone Number *</span>
                   </Label>
                   <Input
@@ -139,7 +139,7 @@ export function OrderForm() {
 
                 <div className="space-y-2">
                   <Label htmlFor="product" className="flex items-center space-x-2">
-                    <Package className="h-4 w-4 text-teal-600" />
+                    <Package className="h-4 w-4 text-[#6B9DCB]" />
                     <span>Select Product *</span>
                   </Label>
                   <select
@@ -148,7 +148,7 @@ export function OrderForm() {
                     value={formData.product}
                     onChange={handleChange}
                     required
-                    className="w-full h-10 px-3 py-2 text-sm rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-teal-500"
+                    className="w-full h-10 px-3 py-2 text-sm rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#6B9DCB]"
                   >
                     <option value="">Choose a variation...</option>
                     {variations.map((variation) => (
@@ -179,7 +179,7 @@ export function OrderForm() {
 
               <div className="space-y-2">
                 <Label htmlFor="address" className="flex items-center space-x-2">
-                  <MapPin className="h-4 w-4 text-teal-600" />
+                  <MapPin className="h-4 w-4 text-[#6B9DCB]" />
                   <span>Delivery Address *</span>
                 </Label>
                 <Textarea
@@ -196,7 +196,7 @@ export function OrderForm() {
 
               <div className="space-y-2">
                 <Label htmlFor="message" className="flex items-center space-x-2">
-                  <MessageSquare className="h-4 w-4 text-teal-600" />
+                  <MessageSquare className="h-4 w-4 text-[#6B9DCB]" />
                   <span>Additional Notes (Optional)</span>
                 </Label>
                 <Textarea
@@ -210,7 +210,7 @@ export function OrderForm() {
                 />
               </div>
 
-              <div className="bg-gradient-to-r from-teal-50 to-green-50 rounded-xl p-4">
+              <div className="bg-gradient-to-r from-[#E8F1FA] to-[#F7F9FA] rounded-xl p-4">
                 <h3 className="font-semibold text-gray-900 mb-2">Payment Information</h3>
                 <p className="text-sm text-gray-600">
                   After submitting this form, we'll send you payment instructions via email or SMS.
@@ -237,7 +237,7 @@ export function OrderForm() {
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
           <Card>
             <CardContent className="pt-6 text-center">
-              <Mail className="h-8 w-8 text-teal-600 mx-auto mb-3" />
+              <Mail className="h-8 w-8 text-[#6B9DCB] mx-auto mb-3" />
               <h3 className="font-semibold mb-2">Email Us</h3>
               <p className="text-sm text-gray-600">pawlish.co.purrify@gmail.com</p>
             </CardContent>
@@ -245,7 +245,7 @@ export function OrderForm() {
 
           <Card>
             <CardContent className="pt-6 text-center">
-              <MapPin className="h-8 w-8 text-teal-600 mx-auto mb-3" />
+              <MapPin className="h-8 w-8 text-[#6B9DCB] mx-auto mb-3" />
               <h3 className="font-semibold mb-2">Visit Us</h3>
               <p className="text-sm text-gray-600">Peñafrancia Avenue, Naga City</p>
             </CardContent>
@@ -253,7 +253,7 @@ export function OrderForm() {
 
           <Card>
             <CardContent className="pt-6 text-center">
-              <Package className="h-8 w-8 text-teal-600 mx-auto mb-3" />
+              <Package className="h-8 w-8 text-[#6B9DCB] mx-auto mb-3" />
               <h3 className="font-semibold mb-2">Delivery</h3>
               <p className="text-sm text-gray-600">3-5 business days nationwide</p>
             </CardContent>
