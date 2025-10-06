@@ -18,7 +18,7 @@ export function BrandStorySection() {
               </p>
               <p className="mb-6">
                 Created by Pawlish Co., a student-led cooperative, we imagined a world where stain removal could be both effective and adorable. The cat-shaped cap
-                isn't just cute—it's functional, doubling as a keychain so you'll never forget it at home.
+                isn't just cute, it's functional, doubling as a keychain so you'll never forget it at home.
               </p>
               <p className="mb-6">
                 Every Purrify pen is designed with sustainability in mind. Our refillable system means less plastic
@@ -26,7 +26,7 @@ export function BrandStorySection() {
               </p>
               <div className="bg-white rounded-2xl p-6 shadow-lg mb-6">
                 <p className="text-[#6B9DCB] font-semibold text-lg italic">
-                  "Because every student deserves to look their best, feel confident, and protect the planet—all with a touch of feline charm." 🐱✨
+                  "Because every student deserves to look their best, feel confident, and protect the planet." 🐱✨
                 </p>
               </div>
               <Link href="/order">
