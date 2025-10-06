@@ -2,5 +2,6 @@
   "/page": "app/page.js",
   "/order/page": "app/order/page.js",
   "/variations/page": "app/variations/page.js",
-  "/how-to-use/page": "app/how-to-use/page.js"
+  "/how-to-use/page": "app/how-to-use/page.js",
+  "/product-info/page": "app/product-info/page.js"
 }
